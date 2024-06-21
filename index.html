@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لینک‌های من</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .container {
+            background-color: rgba(30, 30, 30, 0.9);
+            backdrop-filter: blur(10px); /* ایجاد تار شدن منو */
+            padding: 40px; /* بزرگ‌تر کردن منو */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            z-index: 1;
+            overflow: hidden; /* غیرفعال کردن اسکرول */
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2em;
+        }
+        .link {
+            display: block;
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 1.2em;
+        }
+        .link:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <video class="background-video" autoplay loop muted>
+        <source src="background.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <div class="container">
+        <h1>لینک‌های من</h1>
+        <a class="link" href="https://t.me/ENMGGM" target="_blank">لینک چنل</a>
+        <a class="link" href="https://t.me/enmgg" target="_blank">لینک اکانت دوم</a>
+        <a class="link" href="https://t.me/theenmggs" target="_blank">لینک اکانت اصلی</a>
+        <a class="link" href="https://t.me/enmggsbot" target="_blank">لینک ربات تلگرام</a>
+        <a class="link" href="https://t.me/XBCHATBot?start=sec-geacjgffcf" target="_blank">لینک ارتباط ناشناس</a>
+        <a class="link" href="https://discord.com/invite/SBbNRwrh" target="_blank">لینک سرور دیسکورد</a>
+    </div>
+</body>
+</html>
